@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
             speed = Move;
 
             Vector3 Scaler = transform.localScale;
-            Scaler.x = 1;
+            Scaler.x = 16;
             transform.localScale = Scaler;
 
         }
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
         {
             speed = -Move;
             Vector3 Scaler = transform.localScale;
-            Scaler.x = -1;
+            Scaler.x = -16;
             transform.localScale = Scaler;
 
         }
